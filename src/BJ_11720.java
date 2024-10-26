@@ -5,13 +5,12 @@ public class BJ_11720 {
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
-        int num;
         int sum = 0;
 
         int[] arr = new int[N];
 
         for(int i = 0 ; i<arr.length; i++){
-            arr[i] = num = sc.nextInt();
+            arr[i] = sc.nextInt();
             sum += arr[i];
         }
 
