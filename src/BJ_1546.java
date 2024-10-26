@@ -14,9 +14,6 @@ public class BJ_1546 {
 
         for(int i = 0; i< score.length; i++){
             score[i] = sc.nextInt();
-        }
-
-        for(int i = 0; i< score.length; i++){
             if(score[i]>max){
                 max = score[i];
             }
