@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.PrefixSum;
 
 import java.util.Scanner;
 
